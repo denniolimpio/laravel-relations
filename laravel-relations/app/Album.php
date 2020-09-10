@@ -29,5 +29,12 @@ public function images() {
 
 }
 
+//relazione many to many
+
+public function genres() {
+
+  return $this->belongstoMany('App\Genre');
+}
+
 
 }
