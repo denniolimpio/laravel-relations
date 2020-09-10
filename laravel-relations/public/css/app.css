@@ -10899,3 +10899,8 @@ a.text-dark:focus {
   }
 }
 
+body {
+  width: 80%;
+  text-align: center;
+}
+

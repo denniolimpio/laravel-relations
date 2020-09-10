@@ -23,5 +23,11 @@ public function songs() {
 
 }
 
+public function images() {
+
+  return $this->hasMany('App\Image');
+
+}
+
 
 }
